@@ -1,0 +1,525 @@
+body {
+	margin: 0;
+	padding: 0;
+	user-select: none;
+
+}
+
+@font-face {
+   	font-family: "low"; /* Гарнитура шрифта */
+    src: url(fonts/low.ttf); /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+   	font-family: "intrig"; /* Гарнитура шрифта */
+    src: url(fonts/intrig.ttf); /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+   	font-family: "golos"; /* Гарнитура шрифта */
+    src: url(fonts/Golos-Text_Regular.ttf); /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+   	font-family: "light"; /* Гарнитура шрифта */
+    src: url(fonts/light.ttf); /* Путь к файлу со шрифтом */
+}
+
+#head-content {
+	width: 100%;
+	z-index: 1;
+}
+
+#navigation {
+	display: flex;
+	justify-content: space-around;
+	padding-bottom: 15px;
+	padding-top: 15px;
+	box-shadow: 0px 3px 2px 0px rgba(34, 60, 80, 0.1);
+
+}
+
+/*Ссылки в nav*/
+#headLink-1, #headLink-2, #headLink-3, #headLink-4, #headLink-5, #headLink-6 {/*Ссылки*/
+	border-radius: 5px; 
+	color: black;
+	font-family: sans-serif;
+	font-size: 15px;
+	text-decoration: none;
+	padding: 10px;
+	width: 170px;
+	text-align: center;
+	font-family: golos;
+}
+
+#headLink-1:hover, #headLink-2:hover, #headLink-3:hover, #headLink-4:hover, #headLink-5:hover, #headLink-6:hover {/*Ссылки*/
+	transition: 0.75s;
+	box-shadow: 0px 3px 2px 0px rgba(34, 60, 80, 0.2);
+	cursor: pointer;
+}
+
+#headLink-1 {/*Отступ между кнопками меню*/
+	margin-left: 20%;
+}
+
+#headLink-6 {/*Отступ между кнопками меню*/
+	margin-right: 20%;
+}
+
+
+
+
+
+/*СЕКЦИЯ 1*/
+
+
+
+
+
+#sectionTab-1 {
+	width: 100%;
+	margin-top: 10px;
+}
+
+
+
+
+
+/*ДВЕРИ*/
+
+
+#buy {
+	padding: 10px;
+	width: 100px;
+	background: aqua;
+	font-family: low;
+	text-align: center;
+	margin: 150px auto;
+	box-shadow: 0px 0px 10px 0px rgba(34, 60, 80, 0.2);
+}
+
+
+#buy:active {
+	box-shadow: 0px 0px 0px 0px rgba(34, 60, 80, 0.15);
+}
+
+
+#buy:hover {
+	cursor: pointer;
+}
+
+
+#boxTextInfoDoors p {
+	font-family: low;
+	font-size: 20px;
+}
+
+#shadow {
+	display: none;
+	background: rgba(0, 0, 0, 0.8);
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 9;
+}
+
+#img-x {
+	margin-left: 575px;
+	margin-top: 5px;
+	width: 20px;
+	opacity: 0.5;
+}
+
+#img-x:hover {
+	cursor: pointer;
+	transform: scale(1.2);
+}
+
+#boxTextInfoDoors {
+	display: none;
+	position: fixed;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	width: 600px;
+	height: 400px;
+	text-align: center;
+	background: white;
+	overflow: hidden;
+	z-index: 10;
+	border-radius: 15px;
+}
+
+
+#block-doors {
+	width: 800px;
+	height: 330px;	
+	margin: 30px auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+#block-doors div {
+	width: 150px;
+	height: auto;
+	box-shadow: 0px 0px 5px 0px rgba(34, 60, 80, 0.15);
+	border-radius: 6px;
+}
+
+#block-doors div:hover{
+	transition: 0.3s;
+	box-shadow: 0px 0px 5px 0px rgba(34, 60, 80, 0.4);
+	cursor: pointer;
+	transform: scale(1.1);
+}
+
+#cash-doors {
+	display: none;
+	width: 81px;
+	margin: 160px auto;
+	font-family: low;
+	color: white;
+	color: black;
+
+}
+
+
+
+#door-1 {
+	background:url("img-doors/1.jpg") no-repeat;
+	background-size: 228%;
+	background-position: center;
+
+}
+#door-2 {
+	background:url("img-doors/2.jpg") no-repeat;
+	background-size: 223%;
+	background-position: center;
+}
+#door-3 {
+	background:url("img-doors/3.jpg") no-repeat;
+	background-size: 220%;
+	background-position: center;
+}
+#door-4 {
+	background:url("img-doors/4.jpg") no-repeat;
+	background-size: 225%;
+	background-position: center;
+}
+#door-5 {
+	background:url("img-doors/5.jpg") no-repeat;
+	background-size: 106%;
+	background-position: center;
+}
+#door-6 {
+	background:url("img-doors/6.jpg") no-repeat;
+	background-size: 220%;
+	background-position: center;
+}
+#door-7 {
+	background:url("img-doors/7.jpg") no-repeat;
+	background-size: 220%;
+	background-position: center;
+}
+#door-8 {
+	background:url("img-doors/8.jpg") no-repeat;
+	background-size: 300%;
+	background-position: center;
+}
+#door-9 {
+	background:url("img-doors/9.jpg") no-repeat;
+	background-size: 224%;
+	background-position: center;
+}
+#door-10 {
+	background:url("img-doors/10.jpg") no-repeat;
+	background-size: 220%;
+	background-position: center;
+}
+#door-11 {
+	background:url("img-doors/11.jpg") no-repeat;
+	background-size: 200%;
+	background-position: center;
+}
+#door-12 {
+	background:url("img-doors/12.jpg") no-repeat;
+	background-size: 104%;
+	background-position: center;
+}
+
+
+
+#collection-dors-h2 {
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	font-size: 30px;
+	font-family: light;
+}
+
+#collection-dors {
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	font-size: 25px;
+	font-family: low;
+	box-shadow: 0px 5px 5px 0px rgba(34, 60, 80, 0.05);
+}
+
+
+
+/* СЕКЦИЯ 2*/
+
+
+
+
+
+#sectionTab-2 {
+	width: 100%;
+	display: none;
+}
+
+#sectionTab-2 div {
+	margin: 0 auto;
+	width: 50%;
+
+}
+
+#sectionTab-2 * {
+	font-family: low;
+}
+
+#sectionTab-2 h1 {
+	font-family: light;
+	font-size: 30px;
+	font-size: 30px;
+	font-weight: 100;
+
+}
+
+#sectionTab-2 img {
+	width: 100%;
+}
+
+/* СЕКЦИЯ 3*/
+
+
+
+
+
+#sectionTab-3 {
+	width: 100%;
+	display: none;
+}
+
+#sectionTab-3 div {
+	margin: 0 auto;
+	width: 50%;
+}
+
+#sectionTab-3 * {
+	font-family: low;
+}
+
+#sectionTab-3 h1 {
+	font-family: light;
+	font-size: 30px;
+	font-size: 30px;
+	font-weight: 100;
+}
+
+#sectionTab-3 h2 {
+	text-align: center;
+	font-weight: 100;
+}
+
+
+#sectionTab-3 img {
+	width: 10%;
+	display: block;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+
+#usl-glav {
+	font-family: low;
+	font-size: 30px;
+}
+
+
+
+
+/* СЕКЦИЯ 4*/
+
+
+
+
+
+
+#sectionTab-4 {
+	width: 100%;
+	display: none;
+}
+
+#port-cat div {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 40px;
+}
+
+#port-cat  {
+	width: 800px;
+	height: 330px;	
+	margin: 30px auto;
+}
+
+#block-cat {
+	margin: 0 auto;
+	width: 50%;
+}
+
+#sectionTab-4 img{
+	box-shadow: 0px 0px 10px 0px rgba(34, 60, 80, 0.3);
+	border-radius: 6px;
+}
+
+
+#sectionTab-4 h1 {
+	font-family: light;
+	font-weight: 100;
+	font-size: 30px;
+}
+
+/* СЕКЦИЯ 5*/
+
+
+
+
+
+
+#sectionTab-5 {
+	width: 100%;
+	display: none;
+}
+
+
+#sectionTab-5 h1 {
+	font-family: light;
+	font-size: 30px;
+	font-size: 30px;
+	font-weight: 100;
+}
+
+#sectionTab-5 div {
+	margin: 0 auto;
+	width: 50%;
+}
+
+#sectionTab-5 p {
+	font-family: low;
+	user-select: text;
+	margin-top: 20px;
+	font-size: 20px;
+}
+
+#map {
+	width: 100%;
+	position: relative;
+	right: 100px;
+}
+
+/* СЕКЦИЯ 6*/
+
+
+
+
+
+
+#sectionTab-6 {
+	width: 100%;
+	display: none;
+}
+
+
+
+#block-adress {
+	width: 100%;
+	font-family: low;
+	text-align: center;
+	user-select: text;
+
+}
+
+
+#block-adress h1 {
+	font-size: 30px;
+	box-shadow: 0px 5px 5px 0px rgba(34, 60, 80, 0.05);
+	padding-bottom: 20px;
+	font-family: light;
+	font-weight: 100;
+	user-select: none;
+}
+
+
+
+#menu {
+	margin: 1%;
+}
+
+#head-logo {
+	display: block;
+	margin: 0 auto;
+}
+
+#phone-number {
+	position: absolute;
+	right: 97px;
+	margin-left: 20px;
+	margin-top: 20px;
+	font-family: low;
+	color: black;
+	text-decoration: none;
+}
+
+#tel-img {
+	position: absolute;
+	right: 230px;
+	margin-top: 19px;
+	width: 20px;
+	height: 20px;
+}
+
+#phone-number:hover {
+	border-bottom: 1px dashed;
+}
+
+
+#time-work {
+	position: absolute;
+	left: 95px;
+	margin-top: 20px;
+	font-family: low;
+	font-size: 18px;
+}
+
+#mail {
+	position: absolute;
+	right: 95px;
+	margin-top: 45px;
+	font-family: low;
+	font-size: 18px;
+	user-select: text;
+}
+
+#mail-img {
+	position: absolute;
+	right: 230px;
+	margin-top: 46px;
+	width: 20px;
+	height: 20px;
+	font-family: low;
+	font-size: 18px;
+}

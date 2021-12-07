@@ -1,0 +1,86 @@
+window.onload = function() {
+	document.getElementById("headLink-1").onclick = function() {
+		var sec1 = document.getElementById('sectionTab-1');
+		var sec2 = document.getElementById('sectionTab-2');
+		var sec3 = document.getElementById('sectionTab-3');
+		var sec4 = document.getElementById('sectionTab-4');
+		var sec5 = document.getElementById('sectionTab-5');
+		var sec6 = document.getElementById('sectionTab-6');
+		sec1.style.display = "block";
+		sec2.style.display = "none";
+		sec3.style.display = "none";
+		sec4.style.display = "none";
+		sec5.style.display = "none";
+		sec6.style.display = "none";
+	}
+	document.getElementById("headLink-2").onclick = function() {
+		var sec1 = document.getElementById('sectionTab-1');
+		var sec2 = document.getElementById('sectionTab-2');
+		var sec3 = document.getElementById('sectionTab-3');
+		var sec4 = document.getElementById('sectionTab-4');
+		var sec5 = document.getElementById('sectionTab-5');
+		var sec6 = document.getElementById('sectionTab-6');
+		sec1.style.display = "none";
+		sec2.style.display = "block";
+		sec3.style.display = "none";
+		sec4.style.display = "none";
+		sec5.style.display = "none";
+		sec6.style.display = "none";
+	}
+	document.getElementById("headLink-3").onclick = function() {
+		var sec1 = document.getElementById('sectionTab-1');
+		var sec2 = document.getElementById('sectionTab-2');
+		var sec3 = document.getElementById('sectionTab-3');
+		var sec4 = document.getElementById('sectionTab-4');
+		var sec5 = document.getElementById('sectionTab-5');
+		var sec6 = document.getElementById('sectionTab-6');
+		sec1.style.display = "none";
+		sec2.style.display = "none";
+		sec3.style.display = "block";
+		sec4.style.display = "none";
+		sec5.style.display = "none";
+		sec6.style.display = "none";
+	}
+	document.getElementById("headLink-4").onclick = function() {
+		var sec1 = document.getElementById('sectionTab-1');
+		var sec2 = document.getElementById('sectionTab-2');
+		var sec3 = document.getElementById('sectionTab-3');
+		var sec4 = document.getElementById('sectionTab-4');
+		var sec5 = document.getElementById('sectionTab-5');
+		var sec6 = document.getElementById('sectionTab-6');
+		sec1.style.display = "none";
+		sec2.style.display = "none";
+		sec3.style.display = "none";
+		sec4.style.display = "block";
+		sec5.style.display = "none";
+		sec6.style.display = "none";
+	}
+	document.getElementById("headLink-5").onclick = function() {
+		var sec1 = document.getElementById('sectionTab-1');
+		var sec2 = document.getElementById('sectionTab-2');
+		var sec3 = document.getElementById('sectionTab-3');
+		var sec4 = document.getElementById('sectionTab-4');
+		var sec5 = document.getElementById('sectionTab-5');
+		var sec6 = document.getElementById('sectionTab-6');
+		sec1.style.display = "none";
+		sec2.style.display = "none";
+		sec3.style.display = "none";
+		sec4.style.display = "none";
+		sec5.style.display = "block";
+		sec6.style.display = "none";
+	}
+	document.getElementById("headLink-6").onclick = function() {
+		var sec1 = document.getElementById('sectionTab-1');
+		var sec2 = document.getElementById('sectionTab-2');
+		var sec3 = document.getElementById('sectionTab-3');
+		var sec4 = document.getElementById('sectionTab-4');
+		var sec5 = document.getElementById('sectionTab-5');
+		var sec6 = document.getElementById('sectionTab-6');
+		sec1.style.display = "none";
+		sec2.style.display = "none";
+		sec3.style.display = "none";
+		sec4.style.display = "none";
+		sec5.style.display = "none";
+		sec6.style.display = "block";
+	}
+}
